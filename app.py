@@ -7,8 +7,13 @@ app.secret_key = "MY_SUPER_SECRET_KEY"
 
 ##### Code here ######
 
+@app.route("/")
+def home_page():
+	return render_template ("home.html")
 
-
+@app.route(".")
+def store_page():
+	return render_template("store.html")
 #####################
 
 
