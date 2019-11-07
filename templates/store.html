@@ -1,9 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	 <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='store.css') }}">
+
+	<title>let's go to the store</title>
 </head>
 <body>
+	<a href="{{url_for('home_page')}}">go home from here</a>
+	<div class="card">
+		<img src="/static/melting-chocolate-cake.jpg" alt="cakes" style="width: 100%">
+		<h1>Order cakes</h1>
+		<p class= 'prise'>$10-$40</p>
+		<p>the most delicious and sweet cakes, made with love.  Order now!</p>
+		<p><botton>Order Cake</botton></p>
+	</div>
+
 
 
 </body>
