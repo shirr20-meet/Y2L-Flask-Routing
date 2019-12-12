@@ -14,6 +14,12 @@
 		<p>the most delicious and sweet cakes, made with love.  Order now!</p>
 		<p><botton>Order Cake</botton></p>
 	</div>
+	{%for i in products%}
+		<p>{{i.name}}</p>
+		<p>{{i.price}}</p>
+		<p>{{i.picture_link}}</p>
+		<p>{{i.description}}</p>
+		{%endfor%}
 
 
 
